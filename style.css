@@ -6,17 +6,19 @@
     box-sizing: border-box;
 }
 body{
-    background: #222;
+    background: #343434;
 }
 .card{
     max-width: 470px;
-    background: linear-gradient(to bottom, #809095 0%, #32c2e2 100%);
+    background: linear-gradient(to bottom, #809095 0%, #32e2aa 100%);
     color: #fff;
     margin: 100px auto 0;
     width: 90%;
     text-align: center;
     border-radius: 20px;
-    padding: 40px 35px;
+    padding: 40px 30px;
+    padding-bottom: 140px;
+    box-shadow: 5px 10px 7px rgb(0, 0, 0);
     
 }
 .search{
@@ -81,4 +83,7 @@ weather h2{
 .col img{
     width: 40px;
     margin-right: 10px;
+}
+.city{
+    font-size: 50px;
 }
