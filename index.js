@@ -31,6 +31,11 @@ async function checkWeather(city){
         weatherIcon.src="./icons/mist.png";
     }
 }
+searchBox.addEventListener("keyup", function(event){
+    if (event.key=="Enter"){
+        checkWeather(searchBox.value);
+    }
+});
 searchBtn.addEventListener("click" , ()=>{
     checkWeather(searchBox.value);
 })
